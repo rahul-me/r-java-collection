@@ -9,6 +9,7 @@ import java.util.Objects;
 @Setter
 @Getter
 @Builder
+@ToString
 public class Student {
     String name;
     int rollNo;
