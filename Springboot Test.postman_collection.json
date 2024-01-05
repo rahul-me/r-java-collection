@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "c96e9619-ca7f-42d5-a31f-58bb27e6fb28",
+		"name": "Springboot Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8599389",
+		"_collection_link": "https://red-satellite-909907.postman.co/workspace/Rahul-Study-PersonalWork~28a8e46b-d04d-40fe-866d-1c7431397a1d/collection/8599389-c96e9619-ca7f-42d5-a31f-58bb27e6fb28?action=share&source=collection_link&creator=8599389"
+	},
+	"item": [
+		{
+			"name": "Check Servlet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\":\"vaishnavi\",\r\n  \"password\":\"visu@10\"\r\n                    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://fakestoreapi.com/auth/login",
+					"protocol": "http",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Servlet Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\":\"vaishnavi\",\r\n  \"password\":\"visu@10\"\r\n                    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://fakestoreapi.com/auth/login",
+					"protocol": "http",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Servlet Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"John@gmail.com\",\r\n                      \"username\":\"vaishnavi\",\r\n                      \"password\":\"visu@10\",\r\n                      \"name\":{\r\n                          \"firstname\":\"visu\",\r\n                          \"lastname\":\"chauhan\"\r\n                      },\r\n                      \"address\":{\r\n                          \"city\":\"kilcoole\",\r\n                          \"street\":\"7835 new road\",\r\n                          \"number\":\"3\",\r\n                          \"zipcode\":\"12926-3874\",\r\n                          \"geolocation\":{\r\n                              \"lat\":\"-37.3159\",\r\n                              \"long\":\"81.1496\"\r\n                          }\r\n                      },\r\n                      \"phone\":\"1-570-236-7033\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fakestoreapi.com/users",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"requestId\": \"2912811a-88e4-4e22-a6d2-68ce47947a20\",\n    \"userId\": \"2828047827\",\n    \"actionAttributes\": {\n        \"KYC_SUBJECT_ID\": \"DD_250507237\",\n        \"USER_ID\": \"2828047827\",\n        \"KYC_STATE\": \"DATA_PROVIDED\",\n        \"KYC_SUBJECT_GROUP\": \"BANK_ACCOUNT\",\n        \"UPDATED_BY\": \"SELLER_ACT_UPDATE_EXEC_UPDATE\",\n        \"TIER_CONFIG_ID\": \"DE_SOLE_PROPRIETOR_EBAY_SARL\",\n        \"SOURCE\": \"SELLER_ACT_UPDATE_EXEC_UPDATE\",\n        \"KYC_CHECK\": \"BANK_ACCOUNT_CHECK\",\n        \"USER_KYC_INFO_ID\": \"7010593017\",\n        \"KYC_STATUS\": \"OPEN\",\n        \"KYC_CONFIG_ID\": \"77505\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				}
+			},
+			"response": []
+		}
+	]
+}
